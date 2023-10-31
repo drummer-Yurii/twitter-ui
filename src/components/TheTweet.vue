@@ -13,6 +13,10 @@
                 <div :class="(tweet.image ? 'mb-3' : '')">
                     <p class="text-white" v-html="tweet.body"></p>
                 </div>
+
+                <figure v-if="tweet.image" class="rounded-xl border border-gray-600 overflow-hidden">
+                    <img :src="tweet.image.url" :alt="tweet.image.alt" class="w-full h-44 object-cover" />
+                </figure>
             </section>
         </router-link>
     </article>
