@@ -2,6 +2,7 @@
 node_modules
 /dist
 
+fontawesome-free
 
 # local env files
 .env.local
