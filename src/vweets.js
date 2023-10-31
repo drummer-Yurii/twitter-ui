@@ -2,10 +2,9 @@ export default [
   {
     _id: '0',
     author: {
-      profile_img_url:
-        'https://pbs.twimg.com/profile_images/1338824835078778880/3rFQF35B_400x400.jpg',
-      display_name: 'Tyler Potts',
-      username: '@Tyler_Potts_',
+      profile_img_url: 'https://avatars.githubusercontent.com/u/104525685?v=4',
+      display_name: 'Yurii Rybachok',
+      username: '@Yurii_Rybachok_',
     },
     body: `What do you think is the best trait to have as a developer?`,
     stats: {
@@ -65,7 +64,7 @@ export default [
     _id: '2',
     author: {
       profile_img_url:
-        'https://pbs.twimg.com/profile_images/595659104384905218/bOtXKmdP_400x400.jpg',
+        'https://www.rainforest-alliance.org/wp-content/uploads/2021/06/three-toed-sloth-teaser-1-400x400.jpg.optimal.jpg',
       display_name: 'Florin Pop',
       username: '@florinpop1705',
     },
@@ -102,8 +101,7 @@ export default [
   {
     _id: '3',
     author: {
-      profile_img_url:
-        'https://pbs.twimg.com/profile_images/1338824835078778880/3rFQF35B_400x400.jpg',
+      profile_img_url: 'https://slothconservation.b-cdn.net/wp-content/uploads/2021/10/16-min.jpg',
       display_name: 'Tyler Potts',
       username: '@Tyler_Potts_',
     },
