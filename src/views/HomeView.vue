@@ -1,10 +1,20 @@
 <template>
   <div class="home">
-    <div class="text-white">Home</div>
+    <Tweet />
   </div>
 </template>
 
 <script>
+import { ref } from 'vue';
+import vweets from '@/vweets';
 
-export default {}
+export default {
+  setup() {
+    const tweets = ref(vweets);
+
+    return {
+      tweets,
+    }
+  }
+}
 </script>
